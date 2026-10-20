@@ -42,9 +42,7 @@ sách hàng dài:
   sitter đáng tin mà không cần mở từng hồ sơ
 - Thêm nút lưu yêu thích (♡/♥) ngay trên thẻ để so sánh nhiều sitter cùng lúc
 - Bố cục responsive để hiển thị tốt trên điện thoại
-
-Tôi đã tự chỉnh sửa thêm: *(điền lại đúng phần bạn đã tự sửa ở Bước D, ví dụ:
-"đổi màu chủ đạo từ cam nâu sang xanh lá vì gợi cảm giác tin cậy hơn")*.
+- Đổi màu chủ đạo từ cam sang xanh biển rồi xanh lá đậm
 
 ## 8. Hỗ trợ từ AI
 AI hỗ trợ phân tích giao diện gốc (Nhiệm vụ 2) và đề xuất phương án bố cục
