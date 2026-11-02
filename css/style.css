@@ -291,9 +291,17 @@ a {
 }
 
 .btn-primary:hover {
-  background: #96461a;
+  background: #1f4d3a;
 }
-
+/* ===== Focus states (điều hướng bàn phím) ===== */
+.nav-links a:focus-visible,
+.btn-primary:focus-visible,
+.fav-btn:focus-visible,
+.btn-cta:focus-visible,
+.hero-link:focus-visible {
+  outline: 3px solid #e0a526;
+  outline-offset: 3px;
+}
 /* ===== Footer ===== */
 .site-footer {
   padding: 24px 0 40px;
