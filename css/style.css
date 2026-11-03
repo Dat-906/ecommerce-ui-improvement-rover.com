@@ -125,7 +125,7 @@ a {
   padding: 32px 0 20px;
 }
 
-.page-intro h1 {
+.page-intro h2 {
   font-size: 1.6rem;
   font-weight: 700;
   margin-bottom: 6px;
@@ -172,6 +172,10 @@ a {
   object-fit: cover;
   display: block;
 }
+
+.sitter-card:nth-child(2) 
+
+.card-media img { object-position: center 25%; }
 
 .fav-btn {
   position: absolute;
@@ -343,7 +347,7 @@ a {
     grid-template-columns: 1fr;
   }
 
-  .page-intro h1 {
+  .page-intro h2 {
     font-size: 1.3rem;
   }
 }
