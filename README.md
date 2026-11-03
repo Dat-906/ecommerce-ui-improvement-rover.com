@@ -107,7 +107,7 @@ Bài tập cá nhân Buổi 2 môn Phát triển ứng dụng WEB/TMĐT, tiếp 
 Dùng Claude để hướng dẫn cấu trúc HTML5, hiệu ứng hover/focus và kiểm tra lỗi giao diện. Mọi đề xuất đều được thử trên trình duyệt và đối chiếu với mã nguồn trước khi dùng; chi tiết prompt và phần tự điều chỉnh nằm ở mục 7 của `AI_USAGE.md`.
 
 ### 9.8. Nguồn ảnh
-Bốn ảnh sitter (`images/sitter-1.jpg` đến `sitter-4.jpg`) được tìm trên internet, dùng cho mục đích học tập trong bài tập này. Tác giả và nguồn gốc cụ thể: [bổ sung nếu truy ra được].
+Bốn ảnh sitter (`images/sitter-1.jpg` đến `sitter-4.jpg`) được tìm trên internet, dùng cho mục đích học tập trong bài tập này.
 
 ### 9.9. Chạy website và repository
 Mở `index.html` bằng trình duyệt, không cần cài đặt. Repository: https://github.com/Dat-906/ecommerce-ui-improvement-rover.com. Website chưa được triển khai trực tuyến.
