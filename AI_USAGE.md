@@ -99,3 +99,21 @@ Chưa tạo toàn bộ mã nguồn cho đến khi tôi yêu cầu.
   màn hình để làm giao diện responsive.
 - Hiểu vì sao dùng `<article>` cho mỗi thẻ sitter (mỗi thẻ là một đơn vị
   nội dung độc lập, đúng ngữ nghĩa HTML5) thay vì `<div>` thông thường.
+
+## 7. Buổi 2
+
+Công cụ: Claude.
+
+### 7.1. Prompt đã sử dụng
+| Prompt (đề bài) | Mục đích | Kết quả AI đề xuất | Phần tôi kiểm tra và điều chỉnh |
+|---|---|---|---|
+| Prompt 2 – Kiểm tra cấu trúc HTML5 (Bước 2) | Rà soát thẻ semantic của khu vực banner và danh sách | Chỉ ra cấu trúc `header`, `nav`, `main`, `section`, `article`, `footer` đã phù hợp; trang có hai `h1` nên cần sắp lại thứ bậc | Tự đổi tiêu đề mục kết quả thành `h2` và tên sitter thành `h3`; sửa lại hai chỗ `.page-intro` trong CSS; mở trang kiểm tra giao diện không đổi |
+| Prompt 7 – Hiệu ứng hover và focus (Bước 7) | Thêm phản hồi khi rê chuột và dùng bàn phím | Đề xuất `:hover` kèm `transition` và `:focus-visible` có viền | Đổi màu hover của nút "Đặt lịch" sang `#1f4d3a` cho hợp bảng màu xanh lá; dùng viền focus màu `#e0a526`, dày 3 px; kiểm tra bằng phím Tab |
+| Prompt 8 – Kiểm tra lỗi (Bước 8) | Xử lý lỗi menu sát mép trái ở 390 px | Gợi ý nguyên nhân nằm ở `.header-inner` không có khoảng đệm | Tự thêm `padding-left: 12px` trong khối `@media (max-width: 640px)`, thử ở 390 px và thấy ổn |
+| Prompt bổ sung (ảnh) | Khắc phục ảnh sitter không hiển thị | Mã mẫu ban đầu dùng link ảnh Unsplash | Mở trang thấy cả bốn ảnh lỗi; tự tìm ảnh khác, lưu vào `images/`, đổi `src`, và thêm `object-position` cho ảnh dọc |
+
+### 7.2. Phần tôi hiểu và có thể giải thích
+- Hiểu vì sao cần một `h1` duy nhất và thứ bậc `h1`, `h2`, `h3` cho trình đọc màn hình và công cụ tìm kiếm.
+- Hiểu `:hover` (rê chuột) khác `:focus-visible` (điều hướng bằng bàn phím) và vì sao không nên bỏ viền focus.
+- Hiểu vì sao `padding-left` giải quyết lỗi menu sát mép ở màn hình hẹp.
+- Hiểu `object-fit: cover` và `object-position` giúp ảnh không méo và giữ được phần quan trọng khi bị cắt.
