@@ -84,7 +84,7 @@ Bài tập cá nhân Buổi 2 môn Phát triển ứng dụng WEB/TMĐT, tiếp 
 - Thêm hiệu ứng hover (nút, liên kết menu, thẻ) và viền focus rõ khi dùng phím Tab.
 - Thay ảnh sitter từ link ngoài sang ảnh trong `images/`, căn lại vùng cắt của ảnh sitter thứ hai bằng `object-position`.
 - Sửa thứ bậc tiêu đề: trang chỉ còn một `h1`.
-- Tự sửa một lỗi ở Bước 8: ở 390 px menu sát mép trái, đã thêm `padding-left: 12px` cho `.header-inner` trong khối media query.
+- Tự sửa một lỗi ở Bước 8: ở 390 px menu sát mép trái, đã thêm `padding: 12px 20px` cho `.header-inner` trong khối media query.
 
 Ảnh sau khi chỉnh sửa:
 
